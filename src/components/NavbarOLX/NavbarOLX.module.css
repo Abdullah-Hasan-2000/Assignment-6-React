@@ -1,0 +1,55 @@
+.fontchange {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fontchange:hover {
+    cursor: pointer;
+}
+.olx_shape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 55px;
+    background-color: white;
+    border-radius: 16px 16px 0 0;
+    margin-top: 10px;
+}
+
+.olx_shape:hover {
+    cursor: pointer;
+}
+
+.imageDimensions {
+    width: 80%;
+}
+
+.imageContainer {
+    width: 70px;
+}
+
+.imageContainerProperty {
+    width: 50px;
+}
+
+.sellButton {
+    background: url('../../assets/SellButtonBorder.svg') no-repeat center;
+    width: 120px;
+    height: 50px;
+}
+
+.aligningSellButtonText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+}
+
+.loginUnderline {
+    border-bottom: 2px solid #000000;
+}
+
+.loginUnderline:hover {
+    border-bottom: 0px;
+}
