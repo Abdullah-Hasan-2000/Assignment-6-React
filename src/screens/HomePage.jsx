@@ -21,11 +21,11 @@ const HomePage = () => {
                 </div>
 
                 <div>
-                    <div>
+                    <div className='d-flex justify-content-between align-items-center mt-5 mb-3'>
                         <h2>More in Electronics & Home Appliances</h2>
                         <span><a href="#">View More</a></span>
                     </div>
-                    
+
                 </div>
             </Container>
 
