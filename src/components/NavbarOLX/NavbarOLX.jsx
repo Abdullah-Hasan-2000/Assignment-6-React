@@ -8,7 +8,7 @@ import styles from './NavbarOLX.module.css'
 import { CiLocationOn } from "react-icons/ci";
 import { FaPlus } from "react-icons/fa6";
 import { IoIosArrowDown } from "react-icons/io";
-
+import { FaSearch } from "react-icons/fa";
 
 
 const NavbarOLX = () => {
@@ -73,6 +73,7 @@ const NavbarOLX = () => {
                         </div>
                         <div>
                             <button className={styles.searchButton}>
+                                <FaSearch size='20px' />
                                 <span className={`fw-bold ${styles.fontchange}`}>Search</span>
                             </button>
                         </div>
