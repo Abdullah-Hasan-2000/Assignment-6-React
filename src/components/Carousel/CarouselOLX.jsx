@@ -1,5 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import CarouselImage from '../../assets/CarouselImage.webp';
+import CarouselImage1 from '../../assets/CarouselImage1.webp';
 import { Container } from 'react-bootstrap';
 
 function CarouselOLX() {
@@ -11,7 +12,7 @@ function CarouselOLX() {
                         <img style={{ borderRadius: '10px', width: '100%', height: 'auto' }} src={CarouselImage} alt="" />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img style={{ borderRadius: '10px', width: '100%', height: 'auto' }} src={CarouselImage} alt="" />
+                        <img style={{ borderRadius: '10px', width: '100%', height: 'auto' }} src={CarouselImage1} alt="" />
                     </Carousel.Item>
                 </Carousel>
             </div>
