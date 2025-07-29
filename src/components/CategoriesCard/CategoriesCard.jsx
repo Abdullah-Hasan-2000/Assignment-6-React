@@ -3,7 +3,7 @@ import styles from './CategoriesCard.module.css'
 
 const CategoriesCard = ({ imageSrc, title }) => {
   return (
-    <div className={`${styles.cardContainer}`}>
+    <div className={`${styles.cardContainer}` } style={{color: '#002f34'}}>
         <div>
             <img width={'80%'} src={imageSrc} alt={title} />
         </div>

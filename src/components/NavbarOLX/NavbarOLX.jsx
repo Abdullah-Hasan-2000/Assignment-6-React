@@ -7,13 +7,12 @@ import { Container } from 'react-bootstrap';
 import styles from './NavbarOLX.module.css'
 import { CiLocationOn } from "react-icons/ci";
 import { FaPlus } from "react-icons/fa6";
-import { IoIosArrowDown } from "react-icons/io";
 import { FaSearch } from "react-icons/fa";
 
 
 const NavbarOLX = () => {
     return (
-        <>
+        <div className={styles.fixedNavbar}>
             <div style={{ backgroundColor: '#f0f6ff', fontFamily: 'Geomanist,Helvetica,sans-serif !important' }}>
                 <Container>
                     <div className={`d-flex justify-content-between align-items-center`}>
@@ -84,22 +83,9 @@ const NavbarOLX = () => {
 
             <div className={`${styles.divider}`}></div>
 
-            <Container>
-                <div>
-                <ul className={`d-flex justify-content-start align-items-center gap-4 ${styles.categoryList}`}>
-                    <li className={`fw-bold d-flex gap-2 align-items-center`}>All Categories<IoIosArrowDown /></li>
-                    <li>Mobile Phones</li>
-                    <li>Cars</li>
-                    <li>Motorcycles</li>
-                    <li>Houses</li>
-                    <li>Videos-Audios</li>
-                    <li>Tablets</li>
-                    <li>Land & Plots</li>
-                </ul>
-            </div>
-            </Container>
+            
 
-        </>
+        </div>
     )
 }
 

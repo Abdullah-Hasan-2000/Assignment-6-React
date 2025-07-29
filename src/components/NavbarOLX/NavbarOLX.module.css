@@ -157,3 +157,10 @@
     margin: 0;
     padding: 0;
 }
+/* Make the navbar stick to the top */
+.fixedNavbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #fff;
+}
