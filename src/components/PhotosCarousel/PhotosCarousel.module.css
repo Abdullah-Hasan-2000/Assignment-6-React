@@ -1,0 +1,68 @@
+.carouselContainer {
+  margin-top: 40px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.itemWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 470px;
+  background-color: #000;
+  border-radius: 7.5px;
+}
+
+.slideImage {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+/* Center next/prev controls vertically instead of spanning full height */
+:global(.carousel-control-prev),
+:global(.carousel-control-next) {
+  top: 50% !important;
+  bottom: auto !important;
+  transform: translateY(-50%) !important;
+  height: auto !important;
+}
+
+:global(.carousel-indicators) {
+    margin: 0 0 1rem 0 !important;
+    right: 50% !important;
+    left: auto !important;
+    transform: translateX(50%) !important;
+}
+
+:global(.carousel-caption) {
+    right: 10px !important;
+    left: 10px !important;
+    bottom: -5px !important;
+}
+.captionText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 14px;
+}
+
+.featuredText {
+    background-color: yellow;
+    color: black;
+    width: 65px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-weight: 300;
+}
+
+.imageCounter {
+    color: black;
+    background-color: white;
+    padding: 2px 5px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

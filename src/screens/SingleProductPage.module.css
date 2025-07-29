@@ -8,3 +8,21 @@
     margin: 0;
     padding: 0;
 }
+
+.productDetailsContainer {
+    width: 62.5%;
+}
+
+.sellerDetailsContainer {
+    width: 420px;
+    margin-top: 40px;
+    border: 0.5px solid grey;
+    height: auto;
+}
+
+.divider {
+    width: 95%;
+    height: 1px;
+    background-color: #E0E0E0;
+    margin: 10px;
+}

@@ -13,9 +13,11 @@ const ProductsData = [{
     'Transmission': 'Automatic',
     'Condition': 'Used',
     'Seller Location': 'Airline Avenue, Islamabad',
+    'Posted By': 'Usman',
     'Description': "it's 2021 model fresh import, perfect engine suspension,non accidented,push start ,fully loaded car,need to sell urgently.",
     'Car Features': 'ABS, Air Bags, AM/FM Radio, CD Player, Cassette Player, Climate Control, DVD Player, Front Speakers, Front Camera, Immobilizer Key, Keyless Entry, Navigation System, Power Locks, Power Mirrors, Power Steering, Power Windows, Rear speakers, Rear Camera',
-    'Image': '../src/assets/Cards Data/Mobiles/554421351-800x600.webp'
+    'Image': '../src/assets/Cards Data/Mobiles/Google Pixel 7/554421351-800x600.webp',
+    'Images': ['../src/assets/Cards Data/Mobiles/Google Pixel 7/554421351-800x600.webp','../src/assets/Cards Data/Mobiles/Google Pixel 7/554421352-800x600.webp','../src/assets/Cards Data/Mobiles/Google Pixel 7/554421353-800x600.webp','../src/assets/Cards Data/Mobiles/Google Pixel 7/554421354-800x600.webp','../src/assets/Cards Data/Mobiles/Google Pixel 7/554421355-800x600.webp','../src/assets/Cards Data/Mobiles/Google Pixel 7/554421356-800x600.webp']
 },
 {
     'Ad ID': 1080125520,
@@ -34,7 +36,8 @@ const ProductsData = [{
     'Seller Location': 'Kahuta, Rawalpindi',
     'Description': 'Suzuki ravi 2018 col ',
     'Car Features': 'AM/FM Radio',
-    'Image': '../src/assets/Cards Data/Mobiles/555322275-800x600.webp'
+    'Image': '../src/assets/Cards Data/Mobiles/Samsung Galaxy A25/555322275-800x600.webp',
+    'Images': ['../src/assets/Cards Data/Mobiles/Samsung Galaxy A25/555322275-800x600.webp', '../src/assets/Cards Data/Mobiles/Samsung Galaxy A25/555322276-800x600.webp', '../src/assets/Cards Data/Mobiles/Samsung Galaxy A25/555322277-800x600.webp', '../src/assets/Cards Data/Mobiles/Samsung Galaxy A25/555322278-800x600.webp']
 },
 {
     'Ad ID': 1080748789,
@@ -53,7 +56,8 @@ const ProductsData = [{
     'Seller Location': 'Lyari Expressway, Karachi',
     'Description': 'Suzuki bolan model 2015 reg 2022 ghadi me koi Kam nai a',
     'Car Features': 'Rear speakers',
-    'Image': '../src/assets/Cards Data/Mobiles/555472860-800x600.webp'
+    'Image': '../src/assets/Cards Data/Mobiles/Apple Iphone 13/555472860-800x600.webp',
+    'Images': ['../src/assets/Cards Data/Mobiles/Apple Iphone 13/555472860-800x600.webp', '../src/assets/Cards Data/Mobiles/Apple Iphone 13/555472861-800x600.webp', '../src/assets/Cards Data/Mobiles/Apple Iphone 13/555472862-800x600.webp', '../src/assets/Cards Data/Mobiles/Apple Iphone 13/555472863-800x600.webp', '../src/assets/Cards Data/Mobiles/Apple Iphone 13/555472864-800x600.webp', '../src/assets/Cards Data/Mobiles/Apple Iphone 13/555472865-800x600.webp', '../src/assets/Cards Data/Mobiles/Apple Iphone 13/555472866-800x600.webp', '../src/assets/Cards Data/Mobiles/Apple Iphone 13/555472867-800x600.webp','../src/assets/Cards Data/Mobiles/Apple Iphone 13/555472868-800x600.webp','../src/assets/Cards Data/Mobiles/Apple Iphone 13/555472869-800x600.webp','../src/assets/Cards Data/Mobiles/Apple Iphone 13/555472870-800x600.webp',]
 },
 {
     'Ad ID': 1076081635,
@@ -72,7 +76,8 @@ const ProductsData = [{
     'Seller Location': 'New Amir Town, Lahore',
     'Description': 'Move Push start \nHome Used car. \nModel 2013. \nRegistered in 2015. \nAll origina documents with smart card. \nTotal Geniune few touch ups. \nNever been into any major accident.',
     'Car Features': 'ABS, Air Bags, Air Conditioning, Alloy Rims, AM/FM Radio, CD Player, Immobilizer Key, Keyless Entry, Power Locks, Power Mirrors, Power Steering, Power Windows',
-    'Image': '../src/assets/Cards Data/Mobiles/555876965-800x600.webp'
+    'Image': '../src/assets/Cards Data/Mobiles/Google Pixel 7a/555876964-800x600.webp',
+    'Images': ['../src/assets/Cards Data/Mobiles/Google Pixel 7a/555876964-800x600.webp','../src/assets/Cards Data/Mobiles/Google Pixel 7a/555876965-800x600.webp', '../src/assets/Cards Data/Mobiles/Google Pixel 7a/555876966-800x600.webp', '../src/assets/Cards Data/Mobiles/Google Pixel 7a/555876967-800x600.webp', '../src/assets/Cards Data/Mobiles/Google Pixel 7a/555876968-800x600.webp', '../src/assets/Cards Data/Mobiles/Google Pixel 7a/555876969-800x600.webp', '../src/assets/Cards Data/Mobiles/Google Pixel 7a/555876970-800x600.webp']
 },
 {
     'Ad ID': 1080812928,
